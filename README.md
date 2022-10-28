@@ -9,7 +9,11 @@
 
 ## About Laravel
 
+<<<<<<< HEAD
 ALI GAMAL ALI
+=======
+<h1>Ali Gamal Ali</h1>
+>>>>>>> c9300a5f24fb6982abf8ca66d91e3739deda1469
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
