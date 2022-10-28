@@ -49,19 +49,21 @@
                                 <a href={{ route('total',['idp'=>$value['product_ID'],'ido'=>$value['order_ID']]) }}> ShowPrice </a>
                                </button>
                         </td>
-
-
-
-
                     </tr>
                     <?php endforeach?>
                     @if($product)
                     <th scope="col">Price</th>
+                    <th scope="col">Name</th>
                     @endif
                     @if($product)
                     <td scope="col" >
                         <?php foreach ($product as $key => $value) :?>
-                        <?php echo $value['price'] ?>
+                        <?php echo $value['price'].' LE' ?>
+                        <?php endforeach?>
+                    </td>
+                    <td scope="col" >
+                        <?php foreach ($product as $key => $value) :?>
+                        <?php echo $value['name_prod'] ?>
                         <?php endforeach?>
                     </td>
                     @endif

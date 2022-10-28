@@ -39,12 +39,12 @@
                         <td scope="col" ><?php echo $order['ID_USER'] ?></td>
                         <td scope="col" ><?php echo $order['status'] ?></td>
                         <td scope="col" >
-                            <button>
+                            <button class="btn btn-success">
                                 <a href={{ route('order.show',$order['ID']) }}>
                                     ShoW Name
                                 </a>
                             </button>
-                            <button>
+                            <button class="btn btn-info">
                                 <a href={{ route('order_product.show',$order['ID']) }}>
                                     ShoW Products
                                 </a>
